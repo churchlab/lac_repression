@@ -8,8 +8,11 @@ See the Gene Expression Omnibus (GEO) Series GSE175456 and Series GSM1940482 for
 Structure of this repository:
 
 The directory "laci_selection" contains the processed data files for experimental repression values,
+
 the directory "laci_modelling" contains Molecular Modelling and Simulation notes and files for Rosetta,
-the directory "laci_conservation" contains the alignment and coupling analyses,
+
+the directory "laci_conservation" contains the alignment and coupling files,
+
 the directory "machine_learning" contains sructured/indexed input data and the code for ML model comparison.
 
 Reach out to garruss@fas.harvard.edu with any questions.  
