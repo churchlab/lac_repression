@@ -1,0 +1,15 @@
+obabel 1z04_E_F.pdb -O 1z04_E_F.mol2
+
+# need python 2 with zlib
+source ~/activate 
+
+/Users/garruss/src/rosetta_bin_mac_2016.13.58602_bundle//main/source/scripts/python/public/molfile_to_params.py 1z04_E_F.mol2 
+
+
+cp 1z04_A.pdb 1z04_combined_with_DNA.pdb
+cat LG_0001.pdb >> 1z04_combined_with_DNA.pdb
+
+
+/Users/garruss/src/rosetta_bin_mac_2016.13.58602_bundle/main/source/bin/pmut_scan_parallel.macosclangrelease -s 1z04_combined_with_DNA.pdb -database /Users/garruss/src/rosetta_bin_mac_2016.13.58602_bundle/main/database/ -extra_res_fa LG1.params -extra_res_fa LG2.params -DDG_cutoff 100000 -mutants_list mutant_list_chain_A_only.txt | grep ^protocol > outfile_protocol.1 &
+
+

@@ -1,0 +1,261 @@
+core.init: Rosetta version 255a498695c511926c2b4a128c5c42e7ac4c6eb9 2016-03-24 22:26:30 -0400 from /Volumes/scratch/benchmark/release/rosetta/git/release/rosetta.binary.mac.release.git
+core.init: command: /Users/garruss/src/rosetta_bin_mac_2016.13.58602_bundle/main/source/bin/pmut_scan_parallel.macosclangrelease -s 1z04_combined_with_DNA.pdb -database /Users/garruss/src/rosetta_bin_mac_2016.13.58602_bundle/main/database/ -extra_res_fa LG1.params -extra_res_fa LG2.params -DDG_cutoff 100000
+core.init: 'RNG device' seed mode, using '/dev/urandom', seed=1510094282 seed_offset=0 real_seed=1510094282
+core.init.random: RandomGenerator:init: Normal mode, seed=1510094282 RG_type=mt19937
+core.scoring.ScoreFunctionFactory: SCOREFUNCTION: talaris2014
+core.scoring.etable: Starting energy table calculation
+core.scoring.etable: smooth_etable: changing atr/rep split to bottom of energy well
+core.scoring.etable: smooth_etable: spline smoothing lj etables (maxdis = 6)
+core.scoring.etable: smooth_etable: spline smoothing solvation etables (max_dis = 6)
+core.scoring.etable: Finished calculating energy tables.
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBPoly1D.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBFadeIntervals.csv
+basic.io.database: Database file opened: scoring/score_functions/hbonds/sp2_elec_params/HBEval.csv
+basic.io.database: Database file opened: scoring/score_functions/rama/Rama_smooth_dyn.dat_ss_6.4
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_n
+basic.io.database: Database file opened: scoring/score_functions/P_AA_pp/P_AA_pp
+core.chemical.ResidueTypeSet: Finished initializing fa_standard residue type set.  Created 389 residue types
+core.chemical.ResidueTypeSet: Total time to initialize 0.959114 seconds.
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 29 in file 1z04_combined_with_DNA.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 74 in file 1z04_combined_with_DNA.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 112 in file 1z04_combined_with_DNA.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 163 in file 1z04_combined_with_DNA.pdb. Best match rsd_type:  HIS
+core.io.pose_from_sfr.PoseFromSFRBuilder: [ WARNING ] discarding 1 atoms at position 202 in file 1z04_combined_with_DNA.pdb. Best match rsd_type:  HIS
+protocols.pmut_scan.PointMutScanDriver: go(): master node
+protocols.pmut_scan.PointMutScanDriver: fill_mutations_list(): number single mutants possible: 6821
+protocols.pmut_scan.PointMutScanDriver: fill_mutations_list(): number single mutants excluded otherwise: 0
+protocols.pmut_scan.PointMutScanDriver: mutation   mutation_PDB_numbering   average_ddG   average_total_energy
+core.pack.task: Packer task: initialize from command line() 
+core.pack.dunbrack.RotamerLibrary: Using Dunbrack library binary file '/Users/garruss/src/rosetta_bin_mac_2016.13.58602_bundle/main/database/rotamer/ExtendedOpt1-5/Dunbrack10.lib.bin'.
+core.pack.dunbrack.RotamerLibrary: Dunbrack 2010 library took 0.344695 seconds to load from binary
+core.pack.pack_rotamers: built 25 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6340 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1A   A-M1A      -0.507       -7.34
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 30 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6880 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1C   A-M1C      -0.386       -7.21
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 32 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 7096 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1D   A-M1D      -0.475       -7.30
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 39 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 7852 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1E   A-M1E      -0.743       -7.57
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 28 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6664 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1F   A-M1F       1.114       -5.71
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 25 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6340 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1G   A-M1G      -1.045       -7.87
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 50 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 9040 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1H   A-M1H       0.693       -6.14
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 26 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6448 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1I   A-M1I       0.232       -6.60
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 44 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 8392 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1K   A-M1K      -0.860       -7.69
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 27 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6556 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1L   A-M1L      -0.230       -7.06
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 37 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 7636 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1N   A-M1N      -0.528       -7.36
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 26 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6448 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1P   A-M1P       0.416       -6.41
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 50 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 9040 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1Q   A-M1Q      -0.548       -7.38
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 52 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 9256 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1R   A-M1R      -0.231       -7.06
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 73 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 11524 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1S   A-M1S      -1.638       -8.47
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 56 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 9688 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1T   A-M1T      -1.867       -8.70
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 25 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 6340 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1V   A-M1V      -0.330       -7.16
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 33 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 7204 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1W   A-M1W       1.403       -5.43
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 36 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 7528 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.pack_rotamers: built 35 rotamers at 3 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 4052 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-M1Y   A-M1Y       0.805       -6.02
+core.pack.task: Packer task: initialize from command line() 
+core.pack.rotamer_set.RotamerSet_: Using simple Rotamer generation logic for LG2
+core.pack.pack_rotamers: built 63 rotamers at 8 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 22520 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.rotamer_set.RotamerSet_: Using simple Rotamer generation logic for LG2
+core.pack.pack_rotamers: built 87 rotamers at 8 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating DensePDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 20536 bytes
+core.pack.task: Packer task: initialize from command line() 
+protocols.pmut_scan.PointMutScanDriver: A-K2A   A-K2A      -0.028      -12.77
+core.pack.task: Packer task: initialize from command line() 
+core.pack.rotamer_set.RotamerSet_: Using simple Rotamer generation logic for LG2
+core.pack.pack_rotamers: built 70 rotamers at 8 positions.
+core.pack.interaction_graph.interaction_graph_factory: Instantiating PDInteractionGraph
+core.pack.interaction_graph.interaction_graph_factory: IG: 25552 bytes
+core.pack.task: Packer task: initialize from command line() 
+core.pack.task: Packer task: initialize from command line() 
+core.pack.rotamer_set.RotamerSet_: Using simple Rotamer generation logic for LG2
+core.pack.pack_rotamers: built 87 rotamer
